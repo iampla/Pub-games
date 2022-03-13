@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/templatemo-style.css">
 
 </head>
-<body>
+<body>  
 
     <div id="loader-wrapper">
         <div id="loader"></div>
