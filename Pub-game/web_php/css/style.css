@@ -1,0 +1,36 @@
+
+table { 
+   font-family: 'Bai Jamjuree', sans-serif; 
+   font-size: 1.25em ;
+   background-color: hsla(192, 36%, 62%, 0.63);
+   margin: 0;
+   padding: 0;
+   color: #434653;
+   
+}
+.ask{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 1.25em ;
+}
+
+.web1{
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    padding: 9px 600px;
+    left:50%;
+    top: 50%;
+    color: #3cacbb;
+
+}
+
+.error {
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}

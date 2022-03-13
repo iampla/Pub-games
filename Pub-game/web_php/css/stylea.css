@@ -1,0 +1,97 @@
+.login-page{
+    width: 360px;
+    padding: 10% 0 0;
+    margin: 0 auto;
+    
+}
+body{
+    background-image: url("BG2.jpg");
+}
+
+.success{
+    font-family: 'Bai Jamjuree', sans-serif;
+    text-align: center;
+    color: #dee3eb;
+}
+
+h1{
+    font-family: 'Bai Jamjuree', sans-serif;
+    text-align: center;
+
+    text-decoration: underline;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px cyan
+    
+}
+
+p{
+    font-family: 'Bai Jamjuree', sans-serif;
+    text-align: center;
+
+    
+}
+
+form {
+    font-family: 'Bai Jamjuree', sans-serif;
+    width: 20%;
+    margin: 0 auto;
+    padding: 0;
+    border: 1px solid #000277;
+    background: rgb(255, 255, 255);
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 1);
+
+}
+
+.form input[type="email"],
+.form input[type="text"],
+.form input[type = "password"]{
+    outline: 1;
+    background: transparent;
+    width: 80%;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid #262626;
+    outline: none;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    
+}
+
+.form input[type="email"]:focus,
+.form input[type="text"]:focus,
+.form input[type = "password"]:focus{
+    border-bottom: 2px solid #00ff40;
+}
+
+.form input[type = "submit"]{
+    text-transform: uppercase;
+    outline: 0;
+    background: #00da37;
+    width: 75%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.error {
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
